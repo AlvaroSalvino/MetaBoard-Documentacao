@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    background-color: #3D3D3D;
+}
+
+body {
+    margin: 0;
+}
+
+aside {
+
+    display: flex;
+    flex-direction: column;
+}
+
+aside a{
+    text-decoration: none;
+    color: #F9F9F9;
+}
+aside li{
+    list-style: none;
+    font-weight: 600;
+}
+
+section {
+    position: relative;
+    display: flex;
+}
+
+#conteudo {
+    color: #F9F9F9;
+    margin: 3% 0 0 10%;
+}
