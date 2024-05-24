@@ -54,3 +54,29 @@ mark {
     padding: 1px;
     color: #F9F9F9;
 }
+
+.entranhas a {
+    background-color: rgb(42, 42, 42);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#requirements  {
+    width: 100%;
+    overflow: hidden;
+}
+
+#requirements strong {
+    background-color: lightgray;
+    color: black;
+}
+
+#requirements span img {
+    background-color: lightgray;
+}
+
+#requirements strong:hover {
+    color: gray;
+    cursor: pointer;
+}
